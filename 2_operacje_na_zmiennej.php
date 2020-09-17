@@ -32,3 +32,41 @@ echo $x <=> $y;
 $result = $x <=> $y;
 echo $result;
  ?>
+$x=1;
+$y=1.0;
+
+if ($x==$y)
+
+
+  if ($x==$y)
+{
+  echo 'Zmienne są róqne<br>';
+  
+}else {
+  
+}
+
+echo gettype($x); //integer
+echo gettype($y); //double
+
+##################
+
+/*
+
+preinkrementacja ++$x
+predekrementacja --$x
+postinkrementacja $x++
+postkrementacja $--
+*/
+
+$x=1;
+$x=$x++;
+echo $x; //1
+$x=++$x;
+echo $x; //2
+$y=$x++;
+echo $x; //3
+echo $y; //2
+$y=++$x*2-1;
+echo $x; //4
+echo $y; //7
